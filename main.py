@@ -1,0 +1,4 @@
+import wacthingstream
+from tokens import client_id,client_secret,user_login
+
+wacthingstream.watchingStreams(chanel_name=user_login,client_id=client_id,secret_id=client_secret)
