@@ -1,4 +1,5 @@
 import wacthingstream
-from tokens import client_id,client_secret,user_login
+from tokens import client_id,client_secret
 
-wacthingstream.watchingStreams(chanel_name=user_login,client_id=client_id,secret_id=client_secret)
+choose_of_channel = input()
+wacthingstream.watchingStreams(chanel_name=choose_of_channel,client_id=client_id,secret_id=client_secret)
