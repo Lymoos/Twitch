@@ -1,4 +1,4 @@
-import requests,twichDefs,time
+import requests,twichDefs.twichDefs as twichDefs,time
 # TAE:
 # 0 - default
 # 1 - channel don't streaming now
